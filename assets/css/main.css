@@ -5,4 +5,35 @@
 .container{
   width: 500px;
   height: 500px;
+  margin: 0 auto;
+}
+
+header{
+  text-align: right;
+  padding: 10px 0;
+}
+
+.brand-popup{
+  position: absolute;
+  top: 20%;
+  left: calc(50% - 200px);
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px;
+}
+
+.brand-popup h3{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.brand-popup .popup-close{
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  right: 25px;
+  top: 15px;
 }

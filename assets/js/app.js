@@ -3,4 +3,6 @@ $( () => {
   $('a').click(function(e){
     alert("Hola");
   });
+
+  $('.popup-close')
 });
